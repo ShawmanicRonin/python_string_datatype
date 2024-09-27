@@ -58,7 +58,10 @@ print(my_first_name,my_last_name,'is',age,'years old')
 # TODO Escape characters
 #   - Print the following items (one per line) (print using variables)
 #       - possesive first name -birth year is- year of birth 
+#print(my_first_name + "'s birth year is",my_year_of_birth)
+print(my_first_name + '\'s birth year is',my_year_of_birth)
 #       - tab last name current year
+print('\t'+my_last_name+str(current_year))
 
 
 # TODO String methods
