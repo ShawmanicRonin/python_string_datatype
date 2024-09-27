@@ -45,8 +45,13 @@ print(my_first_name*6)
 # TODO Formatting Strings
 #   - Print the following items (one per line) (print using variables)
 #       - first name last name -was born in- year of birth
-
+print(my_first_name + '' + my_last_name + 'was born in' + str(my_year_of_birth))
+print(my_first_name,my_last_name,'was born in',str(my_year_of_birth))
+print(f'{my_first_name}{my_last_name}was born in{my_year_of_birth}')
+#print(my_first_name + '' + my_last_name + 'was born in' + my_year_of_birth) you can only concatonate strings, my bith year is an integer so this won't work
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
+age = current_year - my_year_of_birth
+print(my_first_name,my_last_name,'is',age,'years old')
 
 
 
